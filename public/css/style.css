@@ -114,19 +114,19 @@ body {
 }
 
 .input-group-double {
-  display: flex; /* Use flexbox for alignment */
-  gap: 10px; /* Space between the inputs */
+  display: flex; 
+  gap: 10px; 
 }
 
 .input-group-double input {
-  flex: 1; /* Allow inputs to grow equally */
-  height: 55px; /* Same height as other inputs */
-  padding: 10px 15px; /* Consistent padding */
-  font-size: 1rem; /* Consistent font size */
-  background-color: #20B3C742; /* Same background color */
-  border: 1px solid #20B3C742; /* Same border */
-  border-radius: 15px; /* Same border radius */
-  outline: none; /* No outline */
+  flex: 1; 
+  height: 55px; 
+  padding: 10px 15px; 
+  font-size: 1rem; 
+  background-color: #20B3C742; 
+  border: 1px solid #20B3C742; 
+  border-radius: 15px; 
+  outline: none; 
 }
 
 .forgot-password {
@@ -384,4 +384,75 @@ body {
   background-color: #d0f0f0;
 }
 
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #d0f0f0; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  z-index: 1000; 
+}
 
+.navbar img {
+  height: 50px;
+}
+
+.navbar .user-info {
+  text-align: right; 
+}
+
+.navbar .user-info h2 {
+  margin: 0;
+  font-size: 18px; 
+}
+
+.navbar .user-info p {
+  margin: 0;
+  font-size: 14px; 
+  color: #666; 
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px; 
+  background-color: #004d4d; 
+  color: white; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; 
+  padding-top: 80px; 
+  position: fixed; 
+  top: 0;
+  left: 0; 
+  bottom: 0;
+  z-index: 999; 
+}
+
+.sidebar a {
+  color: white; 
+  text-decoration: none; 
+  width: 100%; 
+  padding: 15px 20px; 
+  display: flex; 
+  align-items: center; 
+  font-size: 18px; 
+}
+
+.sidebar a:hover {
+  background-color: #006666; 
+}
+
+.sidebar a i {
+  margin-right: 10px; 
+}
+
+.logout {
+  margin-top: auto; 
+  margin-bottom: 20px; 
+}

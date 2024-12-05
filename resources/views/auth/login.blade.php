@@ -1,4 +1,3 @@
-<!-- resources/views/login.blade.php -->
 @extends('layouts.app')
 
 @section('title', 'Login Page InternIcon+')
@@ -22,7 +21,7 @@
     </div>
     <div class="right-panel">
         <div class="logo">
-            <img src="{{ asset('images/logo.png') }}" alt="Internicon+" />
+            <img src="" alt="Internicon+" />
         </div>
         <h2>Sign In</h2>
         <p>Enter your username and password to continue</p>

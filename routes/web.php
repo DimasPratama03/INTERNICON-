@@ -3,7 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
-
+use App\Http\Controllers\RecentHistoryController;
+use App\Http\Controllers\UsersController;
 
 //Route Login
 Route::get('', [AuthController::class, 'showLoginForm'])->name('login');
@@ -18,3 +19,5 @@ Route::get('forgot-password', [AuthController::class, 'showForgotPasswordForm'])
 // });
 
 Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
+Route::get('users', [UsersController::class, 'index'])->name('users');
+Route::get('recenthistory', [RecentHistoryController::class, 'index'])->name('Recent History');

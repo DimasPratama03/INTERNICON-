@@ -21,7 +21,7 @@
     </div>
     <div class="right-panel">
         <div class="logo">
-            <img src="" alt="Internicon+" />
+            <img src="{{ asset('images/logo.png') }}" alt="Internicon+" />
         </div>
         <h2>Sign In</h2>
         <p>Enter your username and password to continue</p>

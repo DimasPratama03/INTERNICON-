@@ -8,6 +8,11 @@ class UsersController extends Controller
 {
     public function index()
     {
-        return view('admin.pages.users'); // Mengarahkan ke views/pages/dashboard.blade.php
+        return view('admin.pages.users');
+    }
+
+    public function detail()
+    {
+        return view('admin.pages.detailusers');
     }
 }

@@ -20,4 +20,6 @@ Route::get('forgot-password', [AuthController::class, 'showForgotPasswordForm'])
 
 Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
 Route::get('users', [UsersController::class, 'index'])->name('users');
+Route::get('detail', [UsersController::class, 'detail'])->name('detailusers');
 Route::get('recenthistory', [RecentHistoryController::class, 'index'])->name('Recent History');
+Route::get('detailhistory', [RecentHistoryController::class, 'detail'])->name('detailhistory');

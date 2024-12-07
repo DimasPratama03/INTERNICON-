@@ -38,11 +38,15 @@
                     <td>40</td>
                     <td>Testcom</td>
                     <td>
-                        <a href="#" class="btn btn-edit">Edit</a>
+                        <a href="{{ route('detailhistory') }}" class="btn btn-edit">
+                            <img src="{{ asset('images/edit.png') }}" alt="Edit" class="action-icon">
+                        </a>
                         <form action="#" method="POST" style="display:inline;">
                             @csrf
                             @method('DELETE')
-                            <button type="submit" class="btn btn-delete" onclick="return confirm('Are you sure you want to delete this user?');">Delete</button>
+                            <button type="submit" class="btn btn-delete" onclick="return confirm('Are you sure you want to delete this user?');">
+                                <img src="{{ asset('images/delete.png') }}" alt="Delete" class="action-icon">
+                            </button>
                         </form>
                     </td>
                 </tr>
@@ -54,11 +58,15 @@
                     <td>40</td>
                     <td>Testcom</td>
                     <td>
-                        <a href="#" class="btn btn-edit">Edit</a>
+                        <a href="#" class="btn btn-edit">
+                            <img src="{{ asset('images/edit.png') }}" alt="Edit" class="action-icon">
+                        </a>
                         <form action="#" method="POST" style="display:inline;">
                             @csrf
                             @method('DELETE')
-                            <button type="submit" class="btn btn-delete" onclick="return confirm('Are you sure you want to delete this user?');">Delete</ button>
+                            <button type="submit" class="btn btn-delete" onclick="return confirm('Are you sure you want to delete this user?');">
+                                <img src="{{ asset('images/delete.png') }}" alt="Delete" class="action-icon">
+                            </button>
                         </form>
                     </td>
                 </tr>

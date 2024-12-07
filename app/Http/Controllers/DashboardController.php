@@ -8,6 +8,6 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        return view('admin.pages.dashboard'); // Mengarahkan ke views/pages/dashboard.blade.php
+        return view('admin.pages.dashboard'); 
     }
 }

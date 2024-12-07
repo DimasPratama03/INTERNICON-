@@ -8,6 +8,11 @@ class RecentHistoryController extends Controller
 {
     public function index()
     {
-        return view('admin.pages.recenthistory'); // Mengarahkan ke views/pages/dashboard.blade.php
+        return view('admin.pages.recenthistory'); 
+    }
+
+    public function detail()
+    {
+        return view('admin.pages.detailhistory');
     }
 }

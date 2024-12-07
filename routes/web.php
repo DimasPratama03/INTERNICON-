@@ -1,9 +1,11 @@
 <?php
 
+use App\Http\Controllers\AdminProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\RecentHistoryController;
+use App\Http\Controllers\ReportController;
 use App\Http\Controllers\UsersController;
 
 //Route Login
@@ -23,3 +25,5 @@ Route::get('users', [UsersController::class, 'index'])->name('users');
 Route::get('detail', [UsersController::class, 'detail'])->name('detailusers');
 Route::get('recenthistory', [RecentHistoryController::class, 'index'])->name('Recent History');
 Route::get('detailhistory', [RecentHistoryController::class, 'detail'])->name('detailhistory');
+Route::get('report', [ReportController::class, 'index'])->name(('report'));
+Route::get('adminprofile', [AdminProfileController::class, 'index'])->name(('profile'));

@@ -35,7 +35,7 @@
                     <td>John Doe</td>
                     <td>Kamis</td>
                     <td>09/12/2024</td>
-                    <td>40</td>
+                    <td>Hadir</td>
                     <td>Testcom</td>
                     <td>
                         <a href="{{ route('detailhistory') }}" class="btn btn-edit">
@@ -55,7 +55,7 @@
                     <td>Jane Smith</td>
                     <td>Kamis</td>
                     <td>09/12/2024</td>
-                    <td>40</td>
+                    <td>Hadir</td>
                     <td>Testcom</td>
                     <td>
                         <a href="#" class="btn btn-edit">

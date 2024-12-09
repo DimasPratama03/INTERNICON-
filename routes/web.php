@@ -20,10 +20,15 @@ Route::get('forgot-password', [AuthController::class, 'showForgotPasswordForm'])
 //     Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
 // });
 
-Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
+// Route Admin
+Route::get('admindashboard', [DashboardController::class, 'admin'])->name('dashboard');
 Route::get('users', [UsersController::class, 'index'])->name('users');
 Route::get('detail', [UsersController::class, 'detail'])->name('detailusers');
 Route::get('recenthistory', [RecentHistoryController::class, 'index'])->name('Recent History');
 Route::get('detailhistory', [RecentHistoryController::class, 'detail'])->name('detailhistory');
 Route::get('report', [ReportController::class, 'index'])->name(('report'));
 Route::get('adminprofile', [AdminProfileController::class, 'index'])->name(('profile'));
+
+// Route Users
+Route::get('usersdashboard', [DashboardController::class, 'users'])->name('dashboard');
+Route::get('usersreport', [ReportController::class, 'users'])->name(('report'));

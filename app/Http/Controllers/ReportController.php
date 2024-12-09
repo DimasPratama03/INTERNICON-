@@ -10,4 +10,9 @@ class ReportController extends Controller
     {
         return view('admin.pages.report');
     }
+
+    public function users()
+    {
+        return view('users.pages.report');
+    }
 }

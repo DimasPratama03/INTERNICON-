@@ -1,5 +1,5 @@
 <div class="sidebar">
-    <a href="dashboard">
+    <a href="admindashboard">
         <i class="fas fa-tachometer-alt"></i>
         Dashboard
     </a>

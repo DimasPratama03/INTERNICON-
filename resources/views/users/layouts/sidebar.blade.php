@@ -3,7 +3,7 @@
         <i class="fas fa-tachometer-alt"></i>
         Dashboard
     </a>
-    <a href="users">
+    <a href="attendanceform">
         <i class="fas fa-users"></i>
         Attendance form
     </a>

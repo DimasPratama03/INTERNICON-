@@ -1,12 +1,14 @@
 <?php
 
 use App\Http\Controllers\AdminProfileController;
+use App\Http\Controllers\AttendanceController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\RecentHistoryController;
 use App\Http\Controllers\ReportController;
 use App\Http\Controllers\UsersController;
+use App\Http\Controllers\UsersProfileController;
 
 //Route Login
 Route::get('', [AuthController::class, 'showLoginForm'])->name('login');
@@ -32,3 +34,5 @@ Route::get('adminprofile', [AdminProfileController::class, 'index'])->name(('pro
 // Route Users
 Route::get('usersdashboard', [DashboardController::class, 'users'])->name('dashboard');
 Route::get('usersreport', [ReportController::class, 'users'])->name(('report'));
+Route::get('userprofile', [UsersProfileController::class, 'index'])->name(('profile'));
+Route::get('attendanceform', [AttendanceController::class, 'index'])->name(('attendanceform'));

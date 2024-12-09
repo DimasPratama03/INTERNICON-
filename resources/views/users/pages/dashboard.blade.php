@@ -9,23 +9,23 @@
         <div class="cards">
             <div class="card">
                 <h3>25</h3>
-                <p>Total Participants</p>
+                <p>Total Attendance</p>
                 <p>this month</p>
             </div>
             <div class="card">
                 <h3>25</h3>
-                <p>Total Attendance</p>
-                <p>from today</p>
+                <p>Total Sickness</p>
+                <p>this month</p>
             </div>
             <div class="card">
                 <h3>25</h3>
-                <p>Total Permission/Sickness</p>
-                <p>from today</p>
+                <p>Total Permission</p>
+                <p>this month</p>
             </div>
             <div class="card">
                 <h3>25</h3>
                 <p>Total Progress On Site</p>
-                <p>from today</p>
+                <p>this month</p>
             </div>
         </div>
         <h4>Statistics</h4>
@@ -56,13 +56,6 @@
                         <a href="{{ route('detailusers') }}" class="btn btn-edit">
                             <img src="{{ asset('images/edit.png') }}" alt="Edit" class="action-icon">
                         </a>
-                        <form action="#" method="POST" style="display:inline;">
-                            @csrf
-                            @method('DELETE')
-                            <button type="submit" class="btn btn-delete" onclick="return confirm('Are you sure you want to delete this user?');">
-                                <img src="{{ asset('images/delete.png') }}" alt="Delete" class="action-icon">
-                            </button>
-                        </form>
                     </td>
                 </tr>
                 <tr>
@@ -76,13 +69,6 @@
                         <a href="#" class="btn btn-edit">
                             <img src="{{ asset('images/edit.png') }}" alt="Edit" class="action-icon">
                         </a>
-                        <form action="#" method="POST" style="display:inline;">
-                            @csrf
-                            @method('DELETE')
-                            <button type="submit" class="btn btn-delete" onclick="return confirm('Are you sure you want to delete this user?');">
-                                <img src="{{ asset('images/delete.png') }}" alt="Delete" class="action-icon">
-                            </button>
-                        </form>
                     </td>
                 </tr>
                 <tr>
@@ -96,13 +82,6 @@
                         <a href="#" class="btn btn-edit">
                             <img src="{{ asset('images/edit.png') }}" alt="Edit" class="action-icon">
                         </a>
-                        <form action="#" method="POST" style="display:inline;">
-                            @csrf
-                            @method('DELETE')
-                            <button type="submit" class="btn btn-delete" onclick="return confirm('Are you sure you want to delete this user?');">
-                                <img src="{{ asset('images/delete.png') }}" alt="Delete" class="action-icon">
-                            </button>
-                        </form>
                     </td>
                 </tr>
                 <tr>
@@ -116,13 +95,6 @@
                         <a href="#" class="btn btn-edit">
                             <img src="{{ asset('images/edit.png') }}" alt="Edit" class="action-icon">
                         </a>
-                        <form action="#" method="POST" style="display:inline;">
-                            @csrf
-                            @method('DELETE')
-                            <button type="submit" class="btn btn-delete" onclick="return confirm('Are you sure you want to delete this user?');">
-                                <img src="{{ asset('images/delete.png') }}" alt="Delete" class="action-icon">
-                            </button>
-                        </form>
                     </td>
                 </tr>
                 <tr>
@@ -136,13 +108,6 @@
                         <a href="{{ route('detailusers') }}" class="btn btn-edit">
                             <img src="{{ asset('images/edit.png') }}" alt="Edit" class="action-icon">
                         </a>
-                        <form action="#" method="POST" style="display:inline;">
-                            @csrf
-                            @method('DELETE')
-                            <button type="submit" class="btn btn-delete" onclick="return confirm('Are you sure you want to delete this user?');">
-                                <img src="{{ asset('images/delete.png') }}" alt="Delete" class="action-icon">
-                            </button>
-                        </form>
                     </td>
                 </tr>
                 <tr>
@@ -156,13 +121,6 @@
                         <a href="#" class="btn btn-edit">
                             <img src="{{ asset('images/edit.png') }}" alt="Edit" class="action-icon">
                         </a>
-                        <form action="#" method="POST" style="display:inline;">
-                            @csrf
-                            @method('DELETE')
-                            <button type="submit" class="btn btn-delete" onclick="return confirm('Are you sure you want to delete this user?');">
-                                <img src="{{ asset('images/delete.png') }}" alt="Delete" class="action-icon">
-                            </button>
-                        </form>
                     </td>
                 </tr>
             </tbody>

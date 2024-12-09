@@ -740,6 +740,27 @@ button {
   background-color: #0e5b6b; 
 }
 
+.buttons-container {
+  margin-top: 20px; 
+  text-align: right; 
+}
+
+.take-button {
+  padding: 10px 20px;
+  width: 100%;
+  border: none; 
+  border-radius: 4px; 
+  background-color: #106F81; 
+  color: white; 
+  font-size: 16px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+.take-button:hover {
+  background-color: #0e5b6b; 
+}
+
 /* Detail Form */
 .form-group {
   display: flex;
@@ -764,7 +785,11 @@ button {
   width: calc(110% - 10px);
 }
 
-.form-group .half-width {
+.form-group .date-box {
+  width: calc(25% - 10px);
+}
+
+.form-group .half-third {
   width: calc(48% - 10px);
 }
 
@@ -790,6 +815,26 @@ button {
 
 .image-group .image-width {
   width: calc(45% - 10px);
+}
+
+.photo-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  margin-right: 35px;
+  margin-left: 35px;
+}
+.photo-group label {
+  display: block;
+  color: #006666;
+  margin-bottom: 5px;
+}
+.photo-group input {
+  width: 355%;
+  height: 200px;
+  padding: 20px;
+  border: 1px solid #5bccc7;
+  border-radius: 4px;
 }
 
 .buttons {
@@ -839,7 +884,7 @@ button {
 }
 
 
-.location-icon, .activity-icon {
+.location-icon, .activity-icon, .dates-icon {
   position: absolute;
   left: 10px; 
   top: 50%; 
@@ -848,6 +893,32 @@ button {
   font-size: 16px; 
 }
 
-.location-icon:hover, .activity-icon:hover {
+.location-icon:hover, .activity-icon:hover, .dates-icon:hover {
   color: #000; 
+}
+
+.thirdbuttons-container {
+  display: flex;
+  gap: 10px; 
+  width: 100%; 
+  justify-content: center; 
+}
+
+.thirdbutton {
+  border: 1px solid #5bccc7;
+  padding: 7px; 
+  text-align: center;
+  flex: 1; 
+  width: 150px;
+  height: 40px; 
+  border-radius: 5px;
+  background-color: #fff;
+  color: #006666;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.thirdbutton:hover {
+  background-color: #e0f7fa;
 }

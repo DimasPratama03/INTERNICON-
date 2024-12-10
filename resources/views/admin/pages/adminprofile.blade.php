@@ -17,7 +17,7 @@
 
         <div class="form-group">
             <div class="half-width">
-                <label for="fullname">FullName</label>
+                <label for="fullname">Fullname</label>
                 <input type="text" id="fullname" value="" >
             </div>
             <div class="half-width">

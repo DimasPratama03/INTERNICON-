@@ -781,16 +781,16 @@ button {
   border-radius: 4px;
 }
 
+.form-group .half-width {
+  width: calc(50% - 10px);
+}
+
 .form-group .half {
   width: calc(110% - 10px);
 }
 
 .form-group .date-box {
   width: calc(25% - 10px);
-}
-
-.form-group .half-third {
-  width: calc(48% - 10px);
 }
 
 .image-group {

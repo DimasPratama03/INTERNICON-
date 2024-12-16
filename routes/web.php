@@ -12,8 +12,11 @@ use App\Http\Controllers\UsersProfileController;
 
 //Route Login
 Route::get('', [AuthController::class, 'showLoginForm'])->name('login');
+
+//route Register
 Route::get('register', [AuthController::class, 'showRegisterForm'])->name('register');
-Route::get('register2', [AuthController::class, 'showRegisterForm2'])->name('register2');
+Route::post('register/submit', [AuthController::class, 'submitRegister'])->name('register.submit');
+
 Route::get('forgot-password', [AuthController::class, 'showForgotPasswordForm'])->name('forgot.password');
 
 

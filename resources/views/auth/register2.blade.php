@@ -1,4 +1,4 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app')
 
 @section('title', 'Register Page InternIcon+')
 
@@ -47,4 +47,4 @@
       </script>
     </div>
   </div>
-@endsection
+@endsection --}}
